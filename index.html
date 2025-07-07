@@ -14,7 +14,7 @@
     const category = "net_unrealized_profit_loss";
     const field = "net_unrealized_profit_loss";
 
-    fetch(`/api/${category}/${field}`)
+    fetch(`/api/net_unrealized_profit_loss`)
       .then(res => res.json())
       .then(data => {
         const x = data.map(item => item.date);
