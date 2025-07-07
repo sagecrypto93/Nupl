@@ -11,8 +11,8 @@
 
   <script>
     // 🔁 CHANGE THESE TWO VARIABLES FOR ANY METRIC
-    const category = "spent_output_profit_ratio";
-    const field = "sopr";
+    const category = "net_unrealized_profit_loss";
+    const field = "net_unrealized_profit_loss";
 
     fetch(`/api/${category}/${field}`)
       .then(res => res.json())
